@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura // Portfolio & Dynamic Engineering Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dynamic Glassmorphic Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                AURA.
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Journal</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero and Dynamic Social Matrix Link Connectors -->
+        <section class="hero">
+            <h1>Dynamic engineering <br>meets minimalist aesthetic.</h1>
+            <p>An advanced exploration into UI engineering, high-output interface design, and architectural speed benchmarks managed by Lokesh Gokeda.</p>
+            
+            <div class="social-connect-bar">
+                <a href="https://www.linkedin.com/in/lokesh-gokeda-b88436360?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon-link" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:lokeshgokeda2@gmail.com" class="social-icon-link" aria-label="Email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+                <a href="https://x.com/LOKESHGOKEDA" target="_blank" class="social-icon-link" aria-label="Twitter">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l11.733 16h4.267l-11.733 -16z M4 20l6.768 -6.768 M20 4l-6.768 6.768"/></svg>
+                </a>
+                <a href="https://youtube.com/@lokeshgokeda-j9b?si=WblMGaC1b5l6tPfF" target="_blank" class="social-icon-link" aria-label="YouTube">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                </a>
+                <a href="https://www.instagram.com/alwayslokesh007?igsh=cTdnNnQ3dXBudnQ0" target="_blank" class="social-icon-link" aria-label="Instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+            </div>
+
+            <a href="#journal-grid" class="btn btn-primary">Explore Advanced Journal</a>
+        </section>
+
+        <!-- Advanced Search Filter Mechanics Panel -->
+        <section id="journal-grid" class="search-filter-controls">
+            <div class="search-wrapper">
+                <input type="text" id="search-input" placeholder="Query content engine...">
+            </div>
+            <div class="category-pills">
+                <button class="pill-btn active" data-category="all">All Modules</button>
+                <button class="pill-btn" data-category="engineering">Engineering</button>
+                <button class="pill-btn" data-category="design">Design</button>
+                <button class="pill-btn" data-category="bookmarks">Bookmarks</button>
+            </div>
+        </section>
+
+        <!-- Main Dynamic Blog Cards Grid Container -->
+        <section class="blog-grid" id="posts-container"></section>
+    </main>
+
+    <!-- Unified FAQ Section Accordion Layout -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 style="text-align:center; font-size: 2.2rem; font-weight:800; letter-spacing:-0.04em;">Platform FAQ</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-trigger">What technologies drive this architecture? <span class="faq-icon">+</span></button>
+                    <div class="faq-content">
+                        <div class="faq-inner">This platform utilizes zero overhead framework libraries. It runs strictly on custom native elements, Hardware-accelerated CSS properties, local static JSON data connections, and modular Client-Side state caches.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">Is there dynamic persistence for interactions? <span class="faq-icon">+</span></button>
+                    <div class="faq-content">
+                        <div class="faq-inner">Yes. Likes, article views, and custom bookmark states utilize native browser local storage nodes, offering instantly reactive states without needing high-latency server transactions.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Contact Section Area -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 style="text-align:center; font-size: 2.2rem; font-weight:800; letter-spacing:-0.04em;">Connect Directly</h2>
+            <form id="pro-contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="form-name">Name</label>
+                    <input type="text" id="form-name" required placeholder="Enter name...">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email Address</label>
+                    <input type="email" id="form-email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="form-msg">Message Query</label>
+                    <textarea id="form-msg" rows="5" required placeholder="Describe your project request..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Dispatch Transmission</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="blog.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+

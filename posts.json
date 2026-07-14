@@ -1,0 +1,29 @@
+[
+  {
+    "id": "building-the-future-web",
+    "title": "Architecting the Modern Web: Speed, Performance, and Micro-interactions",
+    "description": "Explorations into modern design frameworks, component design patterns, fluid typography systems, and maximizing Lighthouse orchestration scores without overhead frameworks.",
+    "category": "Engineering",
+    "tags": ["JavaScript", "CSS", "Performance"],
+    "author": "Lokesh Gokeda",
+    "date": "July 12, 2026",
+    "likesCount": 128,
+    "heroImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+    "readingTime": "5 min read",
+    "content": "<h2>The Philosophy of Speed</h2><p>The modern user landscape demands instant execution. Every millisecond added to a cumulative layout shift or page evaluation degrades conversion rates linearly.</p><div class=\"code-container\"><pre><code>const benchmark = (fn) => {\n  const t0 = performance.now();\n  fn();\n  console.log(\`Execution cost: \${performance.now() - t0}ms\`);\n};</code></pre></div><h2>Pruning Unnecessary Framework Bundles</h2><p>By returning to modern semantics, CSS Grid, and declarative runtime JavaScript APIs, we can deliver experiences that match raw native frameworks while executing zero runtime decompression algorithms.</p>"
+  },
+  {
+    "id": "designing-with-linear-precision",
+    "title": "Designing with Linear Precision: Aesthetics of High-Output SaaS Interfaces",
+    "description": "Deconstructing the dark-mode palettes, sharp borders, minimal spacing configurations, and elegant typographic hierarchies of industry-leading professional applications.",
+    "category": "Design",
+    "tags": ["UI/UX", "Product Design"],
+    "author": "Lokesh Gokeda",
+    "date": "July 08, 2026",
+    "likesCount": 84,
+    "heroImage": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1200&q=80",
+    "readingTime": "7 min read",
+    "content": "<h2>The Anatomy of Minimalist Aesthetics</h2><p>High-end digital tools share a common syntax: absolute structural clarity. Spacing systems should follow rigid geometric multipliers, ensuring mathematical rhythm across viewports.</p><h2>The Interaction Dark Mode Paradigm</h2><p>True dark interfaces aren't black (#000); they use deep subtle variations of slate, charcoal, and absolute rich greys to balance ocular fatigue while elevating contrasting element layers cleanly.</p>"
+  }
+]
+
