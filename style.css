@@ -602,4 +602,141 @@ code {
     .search-filter-controls { flex-direction: column; align-items: flex-start; padding: 1.5rem; }
     .search-wrapper input { width: 100%; }
 }
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:#f8fafc;
+    line-height:1.8;
+    margin:0;
+    padding:30px;
+}
+
+.blog-post{
+    max-width:900px;
+    margin:auto;
+    background:#111827;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 0 40px rgba(0,255,255,.08);
+}
+
+/* Main Title */
+
+.blog-post h1{
+    font-size:3rem;
+    text-align:center;
+    color:#38bdf8;
+    margin-bottom:25px;
+    border-bottom:3px solid #38bdf8;
+    padding-bottom:20px;
+}
+
+/* Section Titles */
+
+.blog-post h2{
+    font-size:2rem;
+    color:#60a5fa;
+    margin-top:50px;
+    padding-left:15px;
+    border-left:6px solid #38bdf8;
+}
+
+/* Sub Heading */
+
+.blog-post h3{
+    font-size:1.4rem;
+    color:#facc15;
+    margin-top:30px;
+}
+
+/* Small Headings */
+
+.blog-post h4,
+.blog-post h5,
+.blog-post h6{
+    color:#c084fc;
+    margin-top:25px;
+}
+
+/* Paragraph */
+
+.blog-post p{
+    font-size:18px;
+    color:#d1d5db;
+    margin:18px 0;
+}
+
+/* Lists */
+
+.blog-post ul{
+    margin:20px 0;
+    padding-left:30px;
+}
+
+.blog-post li{
+    margin:12px 0;
+    font-size:17px;
+}
+
+/* Links */
+
+.blog-post a{
+    display:inline-block;
+    margin-top:15px;
+    background:linear-gradient(45deg,#00c6ff,#0072ff);
+    color:white;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.blog-post a:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(0,114,255,.4);
+}
+
+/* Code */
+
+code{
+    background:#1e293b;
+    color:#38bdf8;
+    padding:3px 8px;
+    border-radius:5px;
+}
+
+/* Image */
+
+.blog-post img{
+    width:100%;
+    border-radius:15px;
+    margin:30px 0;
+    box-shadow:0 0 30px rgba(0,255,255,.2);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.blog-post{
+    padding:25px;
+}
+
+.blog-post h1{
+    font-size:2.2rem;
+}
+
+.blog-post h2{
+    font-size:1.7rem;
+}
+
+.blog-post p,
+.blog-post li{
+    font-size:16px;
+}
+
+   }
